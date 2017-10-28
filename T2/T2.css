@@ -1,0 +1,28 @@
+div {
+    border: 5px solid darkred;
+}
+
+h1{
+
+    border: 5px solid darkblue;
+    padding: 30px;
+    margin: 15px;
+    background-color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    border: 5px solid darkgreen;
+    padding: 30px;
+    margin: 15px;
+    background-color: lightgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{ 
+    border: 5px solid darkblue;
+    padding: 30px;
+    margin: 15px;
+    background-color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
