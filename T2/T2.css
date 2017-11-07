@@ -5,24 +5,29 @@ div {
 h1{
 
     border: 5px solid darkblue;
+    background-color: lightblue;
     padding: 30px;
     margin: 15px;
-    background-color: lightblue;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2{
     border: 5px solid darkgreen;
+    background-color: lightgreen;
     padding: 30px;
     margin: 15px;
-    background-color: lightgreen;
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h3{ 
     border: 5px solid darkblue;
+    background-color: lightblue;
     padding: 30px;
     margin: 15px;
-    background-color: lightblue;
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
