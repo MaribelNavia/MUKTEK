@@ -1,0 +1,38 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imagen-lateral{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.imagen-lateral p {
+    margin: 0;
+    font-size: 14px;
+    font-style: italic;
+}
+
+a:link {
+    color: royalblue;
+    text-decoration: none;
+}
+
+a:visited {
+    color:royalblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.imagen-lateral {
+    float: right;
+    width: 50%;
+    overflow: visible;
+    font-style: italic;
+}
+
+.imagen-lateral img {
+    width: 100%;
+}
