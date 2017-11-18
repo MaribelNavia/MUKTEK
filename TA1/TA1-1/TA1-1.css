@@ -1,0 +1,43 @@
+body{
+    background-image: url("assets/bg.jpg");
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 40px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #c0392b;
+}
+
+h2{
+    color:#2c3e50;
+    border-bottom: 1px solid #3498db;
+}
+a{
+    color: #2980b9; 
+    text-decoration: none;
+}
+.tabla-de-contenido{
+    border: 1px solid #7f8c8d;
+    width: 20%;
+    padding: 10px;
+}
+.imagen-lateral {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.imagen-lateral p {
+    margin: 0;
+    font-size: 14px;
+    font-style: italic;
+}
+.imagen-lateral {
+    float: right;
+    width: 40%;
+    overflow: visible;
+    font-style: italic;
+}
+.imagen-lateral img {
+    width: 100%;
+}

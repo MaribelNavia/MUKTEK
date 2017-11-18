@@ -1,0 +1,271 @@
+@font-face {
+    font-family: open-sans;
+    src: url("assets/open-sans.regular.ttf");
+}
+
+/* Tableta */
+@media screen and (max-width: 960px){
+    
+    body{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .flex-container-feature-a, .flex-container-feature-b{
+        width: 100% !important;
+        padding: 15px 35px !important;
+        margin: 0 !important;
+    }
+
+    .flex-container-pricing ul{
+        flex-flow: row wrap !important;
+    }
+
+} 
+
+/* móvil */
+@media screen and (max-width: 640px){
+    
+    body{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .flex-container-pricing ul{
+        flex-flow: row wrap !important;
+    }
+
+    .gallery-images div{
+        width: 100% !important;
+    }
+
+} 
+
+.flex-container {
+    display: flex;
+    flex-flow: column nowrap;
+    }
+
+body {                  
+    width: 80%;
+    margin: 0 10%;
+    background: grey; 
+    background-image: url("assets/bg.jpg");
+    background-attachment: fixed;
+}
+
+.flex-container-title {
+    
+    width: 100%;
+    text-align: center;
+    font-family: open-sans;
+    color: white;
+    font-weight: normal;
+    padding-bottom: 150px;
+}
+.flex-container-title div{
+    text-align: left;
+    padding: 20px 0;
+}
+.flex-container-title span{
+    margin: 0 30px;    
+}
+.flex-container-menu{
+    width: 50%;
+    float: right;
+    text-align: right;
+    margin: 0 30px;
+}
+.flex-container-menu a{
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+.flex-container-menu a:visited{
+    color: white;
+}
+.flex-container-menu a:hover{
+    color: #3498db;
+}
+.flex-container-title h1 {
+    font-size: 60px;
+    font-weight: 200;
+    margin: 120px 0 20px 0;
+}
+
+.flex-container-title h2 {
+    font-size: 30px;
+    font-weight: 200;
+    margin: 0 0 40px 0;
+}
+
+.flex-container-title button {
+    color: white;
+    font-family: Tahoma;
+    font-size: 17px;
+    background-color: #3498db;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    padding: 23px 50px;
+}
+
+.flex-container-title button:hover{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.flex-container-features {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    width: 100%;
+    font-size: 14px;
+    font-family: Tahoma;
+    color: black;
+}
+
+.flex-container-features hr{
+    width: 20%;
+    border-color: #3498db;
+    margin-top: 50px;
+}
+
+.flex-container-features div h2{ 
+    text-align: center;
+    font-size: 25px;
+}
+.flex-container-feature-a h2{
+    margin: 30px 0;
+}
+
+.flex-container-features .flex-container-feature-a{
+    width: 50%;
+    margin: 0 25%;
+    text-align: left;
+}
+.flex-container-features .flex-container-feature-b{
+    width: 25%;
+    padding: 30px 4%;
+    text-align: justify;
+}
+
+.flex-container-gallery {
+    background-color: #ececec;
+    width: 100%;;
+    text-align: center;
+    font-family: Tahoma;   
+}
+
+.flex-container-gallery h2{
+    margin: 0;
+    padding: 20px 0;
+}
+
+.gallery-images{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.gallery-images div{
+    margin: 15px 4%;
+    width: 41%;
+}
+
+.gallery-images div img{
+    width: 100%;
+}
+
+.flex-container-pricing {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 20px;
+    width: 100%;
+}
+
+.flex-container-pricing h1{
+    margin: 0;
+    padding: 30px 0;
+}
+
+.flex-container-pricing ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.flex-container-pricing ul, .flex-container-pricing ul li ol{
+    list-style: none;
+    padding: 0 15%;
+    margin: 0;
+}
+
+.flex-container-pricing li button {
+    color: white;
+    font-family: Tahoma;
+    font-size: 12px;
+    background-color: #3498db;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    margin: 20px;
+    height: 60px;
+    width: 100px;
+}
+
+.flex-container-pricing li button:hover{
+    font-size: 13px;
+}
+
+.flex-container-pricing ul li ol li{
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 16px;    
+}
+
+.feature-checkmark::before{
+    content: "✔ ";
+    font-weight: bold;
+    color: green;
+}
+
+.feature-exmark::before{
+    content:  "✘ ";
+    font-weight: bold;
+    color: red;
+}
+
+.feature-checkmark {
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+.feature-exmark {
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+   
+.flex-container-footer {
+    justify-content: center;
+    display: flex;
+    background-color: #34495e;
+    width: 100%;
+}
+
+.flex-container-footer h1 {        
+    font-family: Tahoma; 
+    font-size: 15px;
+    font-weight: normal;
+    color: #b3c2d2;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+

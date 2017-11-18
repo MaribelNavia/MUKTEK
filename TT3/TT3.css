@@ -1,0 +1,72 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tabla-de-precios div, .galeria-fotografica div, .chat div{
+    border: 2px solid blue;
+    background-color: lightblue;
+}
+
+.tabla-de-precios, .galeria-fotografica, .chat{
+    border: 2px solid brown;
+    background-color: lightyellow;
+    width: 670px;
+}
+
+.popular, .otro-usuario{
+    border: 2px solid red !important;
+    background-color: lightpink !important;
+}
+
+.tabla-de-precios{
+    padding: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.tabla-de-precios div{
+    width: 20%;
+    height: 300px;
+}
+
+.tabla-de-precios div.popular{
+    width: 30%;
+    height: 350px;
+}
+
+.galeria-fotografica{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.galeria-fotografica div{
+    width: 48%;
+    height: 250px;
+    margin: 10px 0;
+}
+.galeria-fotografica .destacado{
+    width: 100% !important;
+    height: 250px;
+}
+
+.chat{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+
+.chat div{
+    width: 70%;
+    height: 80px;
+    margin-right: 30%;
+    margin: 10px 0;
+}
+
+.chat .otro-usuario{
+    margin-left: 30%;
+    margin-right: 0;
+}
